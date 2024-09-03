@@ -1,6 +1,6 @@
-const chai = require('chai');
-const chaiHttp = require('chai-http');
-const server = require('./server'); // Pastikan path ke file utama Express.js benar
+import chai from 'chai';
+import chaiHttp from 'chai-http';
+import server from '../server'; // Pastikan path ke file utama Express.js benar
 
 chai.should();
 chai.use(chaiHttp);

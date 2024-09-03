@@ -1,7 +1,7 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const taskRoutes = require('./routes/taskRoutes');
+import express from 'express';
+import mongoose from 'mongoose';
+import cors from 'cors';
+import taskRoutes from './routes/taskRoutes.js'; // Import dengan .js jika menggunakan ES Modules
 
 const app = express();
 app.use(cors());
