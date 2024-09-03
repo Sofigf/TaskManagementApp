@@ -11,4 +11,4 @@ This is a dummy project created to showcase my skills in Software Quality Assura
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
+git clone https://github.com/Sofigf/TaskManagementApp.git
